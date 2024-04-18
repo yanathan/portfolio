@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/ik.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Ian Kim</title>
+</head>
+<body class="light" id="top">
+    <!-- Header and Navbar-->
+    <header class="header center">
+        <h3>
+            <a href="https://yanathan.github.io/portfolio" class="link link--logo"> IK</a>
+        </h3>
+        <navbar class="nav center">
+            <ul class="nav__list center">
+                <li class="nav__list-item">
+                    <a class="link link--nav" href="#projects">Projects</a>
+                  </li>
+                <li class="nav__list-item">
+                    <a class="link link--nav" href="#skills">Skills</a>
+                </li>
+                <li class="nav__list-item">
+                    <a class="link link--nav" href="#contact">Contact</a>
+                </li>
+            </ul>
+            <button type="button" aria-label="toggle theme" class="btn btn--icon">
+                <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+              </button>
+      
+              <button
+                type="button"
+                aria-label="toggle navigation"
+                class="btn btn--icon nav__hamburger"
+              >
+                <i aria-hidden="true" class="fas fa-bars"></i>
+              </button>
+        </navbar>
+    </header>
+    <!-- About Me-->
+    <div class="about center">
+        <h1>Hi, I am <span class="about__name">Ian Kim.</span> </h1>
+        <h2 class="about__role">A recent Computer Science grad looking for work.</h2>
+        <p class="about__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem accusamus 
+            similique eligendi aspernatur minima quia praesentium iure aut maiores reiciendis asperiores, 
+            sequi repellat sunt harum repudiandae laboriosam nisi nihil eaque.
+        </p>
+        <div class="about__contact center">
+            <a href="Ian Kim Resume.pdf" target="_blank">
+                <span class="btn btn--outline">Resume (PDF)</span>
+            </a>
+            <a href="https://github.com/yanathan" class="link link--icon">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="https://linkedin.com/in/iank339" class="link link--icon">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+    </div>
+    <!-- Projects -->
+    <section id="projects" class="section projects">
+        <h2 class="section__title"> My Projects</h2>
+        <div class="projects__grid">
+            <div class="project">
+                <h3> Project 1</h3>
+                <p class="project__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Explicabo laborum voluptatem quam maiores enim placeat possimus minima, 
+                    officiis dignissimos dolorum rem ullam commodi 
+                    debitis nisi modi nam vitae est quas!
+                </p>
+                <ul class="project__stack">
+                    <li class="project__stack-item"> React</li>
+                    <li class="project__stack-item"> CSS</li>
+                    <li class="project__stack-item"> HTML</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <h3> Project 2</h3>
+                <p class="project__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Explicabo laborum voluptatem quam maiores enim placeat possimus minima, 
+                    officiis dignissimos dolorum rem ullam commodi 
+                    debitis nisi modi nam vitae est quas!
+                </p>
+                <ul class="project__stack">
+                    <li class="project__stack-item"> React</li>
+                    <li class="project__stack-item"> CSS</li>
+                    <li class="project__stack-item"> HTML</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <h3> Project 3</h3>
+                <p class="project__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Explicabo laborum voluptatem quam maiores enim placeat possimus minima, 
+                    officiis dignissimos dolorum rem ullam commodi 
+                    debitis nisi modi nam vitae est quas!
+                </p>
+                <ul class="project__stack">
+                    <li class="project__stack-item"> React</li>
+                    <li class="project__stack-item"> CSS</li>
+                    <li class="project__stack-item"> HTML</li>
+                </ul>
+            </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section skills" id="skills">
+        <h2 class="section__title"> Skills</h2>
+        <ul class="skills__list">
+            <li class="skills__list-item btn btn--plain">C++</li>
+            <li class="skills__list-item btn btn--plain">C</li>
+            <li class="skills__list-item btn btn--plain">HTML</li>
+            <li class="skills__list-item btn btn--plain">CSS</li>
+            <li class="skills__list-item btn btn--plain">JavaScript</li>
+            <li class="skills__list-item btn btn--plain">Github</li>
+            <li class="skills__list-item btn btn--plain">Git</li>
+            <li class="skills__list-item btn btn--plain">Arduino</li>
+            <li class="skills__list-item btn btn--plain">Visual Studio</li>
+            <li class="skills__list-item btn btn--plain">Scrum</li>
+        </ul>
+    </section>
+    <!-- Contact -->
+    <section class="section contact center" id="contact">
+        <h2 class="section__title"> Contact</h2>
+        <a href="mailto:iank339@gmail.com">
+            <span class="btn btn--outline">Email me</span>
+        </a>
+    </section>
+    <footer class="footer">
+        <a href="https://github.com/yanathan/portfolio" class="link link--logo">
+            Ian Kim
+        </a>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
